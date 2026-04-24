@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Read(//c/Users/marti/**)",
+      "Bash(npx create-vite@latest la-mascara-web --template react)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(grep -E \"\\\\.\\(jpeg|jpg|png|webp|gif\\)$\")",
+      "Bash(mkdir \"C:/Users/marti/la-mascara-web/public\")",
+      "Bash(cp \"Rocio.jpeg\" \"groot.jpeg\" \"africana.jpeg\" \"elefantes.jpeg\" \"minions.jpeg\" \"shrek.jpeg\" \"vaca.jpeg\" \"virgen maria.jpeg\" \"oso cuadro.jpeg\" public/)"
+    ]
+  }
+}
