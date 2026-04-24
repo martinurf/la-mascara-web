@@ -1,0 +1,21 @@
+# Dependencias — nunca deben ir al repo
+node_modules/
+
+# Build de producción
+dist/
+
+# Vercel
+.vercel/
+
+# Variables de entorno locales
+.env
+.env.local
+.env.production.local
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
