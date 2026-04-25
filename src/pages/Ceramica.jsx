@@ -78,7 +78,7 @@ export default function Ceramica() {
                 <div className="relative overflow-hidden aspect-square">
                   <img
                     src={item.imagen_terminada}
-                    alt={`Figura de cerámica artesanal de ${item.nombre} pintada a mano en Ibarra, Ecuador`}
+                    alt={item.alt}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -143,7 +143,7 @@ export default function Ceramica() {
                   <div className="relative h-56 overflow-hidden">
                     <img
                       src={p.imagen}
-                      alt={p.titulo}
+                      alt={p.alt}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />

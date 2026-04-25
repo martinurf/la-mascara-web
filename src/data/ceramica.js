@@ -6,8 +6,6 @@ export const tematicas = [
   { id: 'hogar',      label: 'Hogar' },
 ]
 
-// imagen_base: figura en arcilla sin pintar (referencia genérica)
-// imagen_terminada: foto real de la pieza terminada por Rocío
 const BASE = 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80'
 
 export const ceramicas = [
@@ -20,6 +18,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Spider-man.jpeg',
     descripcion: 'Figura pintada a mano, detalle premium',
+    alt: 'Figura de cerámica de Spider-Man edición coleccionista pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 2,
@@ -28,6 +27,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Capitan%20America.jpeg',
     descripcion: 'El escudo más icónico, en cerámica',
+    alt: 'Figura de cerámica de Capitán América con escudo pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 17,
@@ -36,6 +36,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Hulk.jpeg',
     descripcion: 'Fuerza y color en cada detalle',
+    alt: 'Figura de cerámica del Increíble Hulk pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 18,
@@ -44,6 +45,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Ironman.jpeg',
     descripcion: 'El genio, millonario y filántropo',
+    alt: 'Figura de cerámica de Iron Man con armadura pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 19,
@@ -52,6 +54,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Thor.jpeg',
     descripcion: 'Con su Mjölnir, listo para la batalla',
+    alt: 'Figura de cerámica de Thor dios del trueno con Mjölnir pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 20,
@@ -60,6 +63,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Superman.jpeg',
     descripcion: 'El hombre de acero, pintado a mano',
+    alt: 'Figura de cerámica de Superman el hombre de acero pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 21,
@@ -68,6 +72,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Vegeta.jpeg',
     descripcion: 'Orgullo del planeta Vegeta',
+    alt: 'Figura de cerámica de Vegeta príncipe Saiyan de Dragon Ball pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
 
   // ── PERSONAJES ───────────────────────────────────────────────
@@ -78,6 +83,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/groot.jpeg',
     descripcion: 'I am Groot — Guardián de la Galaxia',
+    alt: 'Figura de cerámica de Pequeño Groot Guardianes de la Galaxia pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 4,
@@ -86,6 +92,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Baby%20Groot.jpeg',
     descripcion: 'La versión más tierna del guardián',
+    alt: 'Figura de cerámica de Baby Groot pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 22,
@@ -94,6 +101,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/baby%20groot%202.jpeg',
     descripcion: 'Edición exclusiva pintada por Rocío',
+    alt: 'Figura de cerámica de Baby Groot versión 2 edición exclusiva pintada a mano por Rocío Recalde en Ibarra Ecuador',
   },
   {
     id: 5,
@@ -102,6 +110,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Yoda.jpeg',
     descripcion: 'La Fuerza te acompaña',
+    alt: 'Figura de cerámica del Maestro Yoda de Star Wars pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 6,
@@ -110,6 +119,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Chubaka.jpeg',
     descripcion: 'El fiel copiloto del Halcón Milenario',
+    alt: 'Figura de cerámica de Chewbacca copiloto del Halcón Milenario Star Wars pintada a mano en Ibarra Ecuador',
   },
   {
     id: 23,
@@ -118,6 +128,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Frozen.jpeg',
     descripcion: 'Las reinas de Arendelle en cerámica',
+    alt: 'Figura de cerámica de Elsa Anna y Olaf de Frozen pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 7,
@@ -126,6 +137,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/minions.jpeg',
     descripcion: 'Kevin, Stuart, Bob y la Minion — todos juntos',
+    alt: 'Figura de cerámica del equipo completo de Minions Kevin Stuart y Bob pintada a mano en Ibarra Ecuador',
   },
   {
     id: 8,
@@ -134,6 +146,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/shrek.jpeg',
     descripcion: 'Shrek, Fiona, Burro y Gato con Botas',
+    alt: 'Figura de cerámica de Shrek Fiona Burro y Gato con Botas pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 9,
@@ -142,6 +155,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Doctora%20Juguetes.jpeg',
     descripcion: 'Un regalo perfecto para los pequeños',
+    alt: 'Figura de cerámica de Doctora Juguetes pintada a mano en Ibarra Ecuador — regalo para niños taller La Máscara',
   },
   {
     id: 10,
@@ -150,6 +164,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Gato%20Tom.jpeg',
     descripcion: 'El perseguidor más querido del cartoon',
+    alt: 'Figura de cerámica del Gato Tom de Tom y Jerry pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 24,
@@ -158,6 +173,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/paw%20patrol.jpeg',
     descripcion: 'La misión nunca falla — pintada a mano',
+    alt: 'Figura de cerámica de la Patrulla Canina Paw Patrol pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 11,
@@ -166,6 +182,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/africana.jpeg',
     descripcion: 'Pieza decorativa de autor',
+    alt: 'Figura étnica africana decorativa en cerámica pintada a mano por Rocío Recalde en Ibarra Ecuador',
   },
   {
     id: 25,
@@ -174,6 +191,52 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/africana%202.jpeg',
     descripcion: 'Segunda edición de la serie étnica',
+    alt: 'Figura étnica africana segunda edición en cerámica pintada a mano por Rocío Recalde en Ibarra Ecuador',
+  },
+  {
+    id: 29,
+    nombre: 'Policía',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Policia.jpeg',
+    descripcion: 'Figura de oficial pintada a mano',
+    alt: 'Figura de cerámica de policía oficial pintada a mano en Ibarra Ecuador — taller La Máscara',
+  },
+  {
+    id: 30,
+    nombre: 'Figura Étnica Otavaleña',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Otavale%C3%B1o.jpeg',
+    descripcion: 'Pieza decorativa de la cultura otavaleña',
+    alt: 'Figura étnica otavaleña en cerámica pintada a mano en Ibarra Ecuador — artesanía del taller La Máscara',
+  },
+  {
+    id: 31,
+    nombre: 'Perrita Decorativa',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Perra%20.jpeg',
+    descripcion: 'Figura canina pintada a mano',
+    alt: 'Figura de cerámica de perrita decorativa pintada a mano en Ibarra Ecuador — taller La Máscara',
+  },
+  {
+    id: 32,
+    nombre: 'Perro Decorativo',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/perro.jpeg',
+    descripcion: 'Figura canina pintada a mano',
+    alt: 'Figura de cerámica de perro decorativo pintada a mano en Ibarra Ecuador — taller La Máscara',
+  },
+  {
+    id: 33,
+    nombre: 'Doctor',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Doctor.jpeg',
+    descripcion: 'Figura de médico pintada a mano',
+    alt: 'Figura de cerámica de médico doctor pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
 
   // ── RELIGIOSO ────────────────────────────────────────────────
@@ -184,6 +247,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/virgen%20maria.jpeg',
     descripcion: 'Figura devocional de acabado fino',
+    alt: 'Figura de cerámica de la Virgen María pintada a mano en Ibarra Ecuador — artesanía devocional taller La Máscara',
   },
   {
     id: 13,
@@ -192,6 +256,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Virgen%20Maria%202%20.jpeg',
     descripcion: 'Colores tradicionales, devoción eterna',
+    alt: 'Figura de cerámica de la Virgen María estilo clásico colores tradicionales pintada a mano en Ibarra Ecuador',
   },
   {
     id: 26,
@@ -200,6 +265,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/Virgen%20Maria%203.jpeg',
     descripcion: 'Acabado exclusivo, ideal para regalo',
+    alt: 'Figura de cerámica de la Virgen María edición especial pintada a mano en Ibarra Ecuador — ideal para regalo',
   },
 
   // ── HOGAR ────────────────────────────────────────────────────
@@ -210,6 +276,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/elefantes.jpeg',
     descripcion: 'Símbolo de prosperidad y fortuna',
+    alt: 'Trío de elefantes de la suerte en cerámica símbolo de prosperidad pintados a mano en Ibarra Ecuador',
   },
   {
     id: 27,
@@ -218,6 +285,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/elefantes%202.jpeg',
     descripcion: 'Elegancia y buena energía en tu hogar',
+    alt: 'Trío de elefantes decorativos en cerámica pintados a mano para el hogar en Ibarra Ecuador — taller La Máscara',
   },
   {
     id: 15,
@@ -226,6 +294,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/oso%20cuadro.jpeg',
     descripcion: 'Portarretrato artesanal único',
+    alt: 'Marco fotográfico con osito cariñoso en cerámica pintado a mano portarretrato artesanal en Ibarra Ecuador',
   },
   {
     id: 28,
@@ -234,6 +303,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/buho.jpeg',
     descripcion: 'Símbolo de sabiduría para decorar',
+    alt: 'Figura de cerámica de búho de la sabiduría pintada a mano decoración para el hogar en Ibarra Ecuador',
   },
   {
     id: 16,
@@ -242,48 +312,7 @@ export const ceramicas = [
     imagen_base: BASE,
     imagen_terminada: '/vaca.jpeg',
     descripcion: 'Figura campestre pintada a mano',
-  },
-
-  // ── PERSONAJES (cont.) ───────────────────────────────────────────────
-  {
-    id: 29,
-    nombre: 'Policía',
-    tematica: 'personajes',
-    imagen_base: BASE,
-    imagen_terminada: '/Policia.jpeg',
-    descripcion: 'Figura de oficial pintada a mano',
-  },
-  {
-    id: 30,
-    nombre: 'Figura Étnica Otavaleña',
-    tematica: 'personajes',
-    imagen_base: BASE,
-    imagen_terminada: '/Otavale%C3%B1o.jpeg',
-    descripcion: 'Pieza decorativa de la cultura otavaleña',
-  },
-  {
-    id: 31,
-    nombre: 'Perrita Decorativa',
-    tematica: 'personajes',
-    imagen_base: BASE,
-    imagen_terminada: '/Perra%20.jpeg',
-    descripcion: 'Figura canina pintada a mano',
-  },
-  {
-    id: 32,
-    nombre: 'Perro Decorativo',
-    tematica: 'personajes',
-    imagen_base: BASE,
-    imagen_terminada: '/perro.jpeg',
-    descripcion: 'Figura canina pintada a mano',
-  },
-  {
-    id: 33,
-    nombre: 'Doctor',
-    tematica: 'personajes',
-    imagen_base: BASE,
-    imagen_terminada: '/Doctor.jpeg',
-    descripcion: 'Figura de médico pintada a mano',
+    alt: 'Figura de cerámica de vaca decorativa de granja pintada a mano en Ibarra Ecuador — taller La Máscara',
   },
 ]
 
@@ -293,11 +322,13 @@ export const personalizados = [
     titulo: 'Cerdito Miguel — Coco',
     descripcion: 'Personalizado basado en el personaje de la película Coco',
     imagen: '/Cerdito%20Miguel%20de%20coco%20Personalizado.jpeg',
+    alt: 'Figura de cerámica personalizada del cerdito Miguel de la película Coco pintada a mano en Ibarra Ecuador',
   },
   {
     id: 2,
     titulo: 'Balón de Fútbol — Liga',
     descripcion: 'Balón decorativo personalizado con los colores del equipo',
     imagen: '/Liga%20Balon%20de%20futbol%20personalizado.jpeg',
+    alt: 'Balón de fútbol de cerámica personalizado con colores de Liga de Quito pintado a mano en Ibarra Ecuador',
   },
 ]

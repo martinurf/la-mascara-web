@@ -140,14 +140,14 @@ export default function Home() {
                 <div className="rounded-3xl overflow-hidden h-52 shadow-xl mt-8">
                   <img
                     src={heroImgs[0]?.imagen_terminada}
-                    alt={heroImgs[0]?.nombre}
+                    alt={heroImgs[0]?.alt}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-3xl overflow-hidden h-44 shadow-xl">
                   <img
                     src={heroImgs[1]?.imagen_terminada}
-                    alt={heroImgs[1]?.nombre}
+                    alt={heroImgs[1]?.alt}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -156,14 +156,14 @@ export default function Home() {
                 <div className="rounded-3xl overflow-hidden h-44 shadow-xl">
                   <img
                     src={heroImgs[2]?.imagen_terminada}
-                    alt={heroImgs[2]?.nombre}
+                    alt={heroImgs[2]?.alt}
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-3xl overflow-hidden h-52 shadow-xl">
                   <img
                     src={heroImgs[3]?.imagen_terminada}
-                    alt={heroImgs[3]?.nombre}
+                    alt={heroImgs[3]?.alt}
                     className="w-full h-full object-cover"
                   />
                 </div>
