@@ -253,6 +253,30 @@ export const ceramicas = [
     imagen_terminada: '/Policia.jpeg',
     descripcion: 'Figura de oficial pintada a mano',
   },
+  {
+    id: 30,
+    nombre: 'Figura Étnica Otavaleña',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Otavale%C3%B1o.jpeg',
+    descripcion: 'Pieza decorativa de la cultura otavaleña',
+  },
+  {
+    id: 31,
+    nombre: 'Perrita Decorativa',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Perra%20.jpeg',
+    descripcion: 'Figura canina pintada a mano',
+  },
+  {
+    id: 32,
+    nombre: 'Perro Decorativo',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/perro.jpeg',
+    descripcion: 'Figura canina pintada a mano',
+  },
 ]
 
 export const personalizados = []
