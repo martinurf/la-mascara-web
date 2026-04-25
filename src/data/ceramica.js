@@ -277,6 +277,27 @@ export const ceramicas = [
     imagen_terminada: '/perro.jpeg',
     descripcion: 'Figura canina pintada a mano',
   },
+  {
+    id: 33,
+    nombre: 'Doctor',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Doctor.jpeg',
+    descripcion: 'Figura de médico pintada a mano',
+  },
 ]
 
-export const personalizados = []
+export const personalizados = [
+  {
+    id: 1,
+    titulo: 'Cerdito Miguel — Coco',
+    descripcion: 'Personalizado basado en el personaje de la película Coco',
+    imagen: '/Cerdito%20Miguel%20de%20coco%20Personalizado.jpeg',
+  },
+  {
+    id: 2,
+    titulo: 'Balón de Fútbol — Liga',
+    descripcion: 'Balón decorativo personalizado con los colores del equipo',
+    imagen: '/Liga%20Balon%20de%20futbol%20personalizado.jpeg',
+  },
+]
