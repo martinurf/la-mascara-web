@@ -1,17 +1,9 @@
-import { useState, useMemo } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { ShoppingBag, MessageCircle, Tag } from 'lucide-react'
-import { extras, categoriasExtras } from '../data/extras'
+import { motion } from 'framer-motion'
+import { ShoppingBag, MessageCircle, Wrench } from 'lucide-react'
 
 const WHATSAPP = '593993703790'
 
 export default function Extras() {
-  const [categoria, setCategoria] = useState('todas')
-
-  const filtrados = useMemo(() => {
-    return extras.filter(e => categoria === 'todas' || e.categoria === categoria)
-  }, [categoria])
-
   return (
     <div className="pt-16">
       {/* ── HEADER ── */}
@@ -33,100 +25,30 @@ export default function Extras() {
         </div>
       </section>
 
-      {/* ── FILTROS ── */}
-      <section className="bg-white sticky top-16 z-30 shadow-sm border-b border-brand-sand/30">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex gap-2 overflow-x-auto pb-1">
-            {categoriasExtras.map(({ id, label }) => (
-              <button
-                key={id}
-                onClick={() => setCategoria(id)}
-                className={`whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-150 shrink-0 ${
-                  categoria === id
-                    ? 'bg-brand-clay text-white shadow-sm'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── GRID ── */}
-      <section className="max-w-7xl mx-auto px-4 py-12">
-        <AnimatePresence mode="popLayout">
-          <motion.div
-            key={categoria}
-            className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            {filtrados.map((item, i) => (
-              <motion.div
-                key={item.id}
-                className="card group"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.06 }}
-                whileHover={{ y: -4 }}
-              >
-                <div className="relative overflow-hidden aspect-square">
-                  <img
-                    src={item.imagen}
-                    alt={item.nombre}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-3 left-3">
-                    <span className="badge bg-white/90 text-brand-dark text-[10px] capitalize">
-                      {item.categoria}
-                    </span>
-                  </div>
-                  <div className="absolute top-3 right-3 flex items-center gap-1 bg-brand-orange text-white px-2 py-0.5 rounded-full text-xs font-bold">
-                    <Tag size={10} />
-                    {item.precio}
-                  </div>
-                </div>
-                <div className="p-4">
-                  <h3 className="font-semibold text-brand-dark text-sm mb-1">{item.nombre}</h3>
-                  <p className="text-xs text-gray-500 mb-3">{item.descripcion}</p>
-                  <a
-                    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`¡Hola! Me interesa "${item.nombre}". ¿Está disponible?`)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-whatsapp w-full justify-center text-xs py-2"
-                  >
-                    <MessageCircle size={13} />
-                    Consultar
-                  </a>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </AnimatePresence>
-      </section>
-
-      {/* ── BANNER ── */}
-      <section className="max-w-7xl mx-auto px-4 pb-16">
+      {/* ── AVISO RENOVACIÓN ── */}
+      <section className="max-w-2xl mx-auto px-4 py-24 text-center">
         <motion.div
-          className="bg-gradient-to-r from-brand-clay to-brand-orange rounded-3xl p-8 text-white text-center"
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
         >
-          <h3 className="text-2xl font-bold mb-2">¿Buscas algo especial?</h3>
-          <p className="text-white/80 mb-6">Si no encontraste lo que buscas, contáctanos. Conseguimos insumos especiales por pedido.</p>
+          <div className="w-20 h-20 bg-brand-clay/10 rounded-3xl flex items-center justify-center mx-auto mb-6">
+            <Wrench size={36} className="text-brand-clay" />
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-3">Catálogo en renovación</h2>
+          <p className="text-gray-500 leading-relaxed mb-2">
+            Estamos actualizando La Tiendita con fotos reales de todos nuestros productos.
+          </p>
+          <p className="text-gray-400 text-sm mb-10">Vuelve pronto — ¡viene con muchas novedades!</p>
+
           <a
-            href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent('¡Hola! Busco un insumo especial que no vi en el catálogo.')}`}
+            href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent('¡Hola Rocío! Quisiera consultar sobre los insumos y accesorios disponibles en La Tiendita.')}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white text-brand-orange font-bold px-6 py-3 rounded-2xl hover:bg-brand-cream transition-colors"
+            className="inline-flex items-center gap-2 btn-whatsapp text-sm px-6 py-3"
           >
-            <MessageCircle size={18} />
-            Consultar por WhatsApp
+            <MessageCircle size={16} />
+            Consultar disponibilidad por WhatsApp
           </a>
         </motion.div>
       </section>
