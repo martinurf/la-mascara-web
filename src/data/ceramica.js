@@ -113,7 +113,7 @@ export const ceramicas = [
   },
   {
     id: 23,
-    nombre: 'Elsa y Anna — Frozen',
+    nombre: 'Elsa, Anna y Olaf — Frozen',
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Frozen.jpeg',
@@ -213,7 +213,7 @@ export const ceramicas = [
   },
   {
     id: 27,
-    nombre: 'Dúo de Elefantes Decorativos',
+    nombre: 'Trío de Elefantes Decorativos',
     tematica: 'hogar',
     imagen_base: BASE,
     imagen_terminada: '/elefantes%202.jpeg',
@@ -243,25 +243,16 @@ export const ceramicas = [
     imagen_terminada: '/vaca.jpeg',
     descripcion: 'Figura campestre pintada a mano',
   },
+
+  // ── PERSONAJES (cont.) ───────────────────────────────────────────────
+  {
+    id: 29,
+    nombre: 'Policía',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Policia.jpeg',
+    descripcion: 'Figura de oficial pintada a mano',
+  },
 ]
 
-export const personalizados = [
-  {
-    id: 1,
-    titulo: 'Barcelona SC',
-    descripcion: 'Colección completa del equipo canario',
-    imagen: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500&q=80',
-  },
-  {
-    id: 2,
-    titulo: 'Liga de Quito',
-    descripcion: 'Figuras de los ídolos universitarios',
-    imagen: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=500&q=80',
-  },
-  {
-    id: 3,
-    titulo: 'Bodas & Aniversarios',
-    descripcion: 'Figuras de novios personalizadas a pedido',
-    imagen: 'https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=500&q=80',
-  },
-]
+export const personalizados = []

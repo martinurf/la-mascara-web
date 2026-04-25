@@ -132,11 +132,12 @@ export default function Disfraces() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="text-center py-20"
+              className="text-center py-24"
             >
-              <p className="text-5xl mb-4">🎭</p>
-              <h3 className="text-xl font-semibold text-brand-dark mb-2">No encontramos ese disfraz</h3>
-              <p className="text-gray-500 mb-6">Intenta con otra búsqueda o contáctanos directamente</p>
+              <p className="text-6xl mb-5">🎭</p>
+              <h3 className="text-2xl font-semibold text-brand-dark mb-3">Catálogo en preparación</h3>
+              <p className="text-gray-500 mb-2">Pronto subiremos las fotos de todos nuestros disfraces.</p>
+              <p className="text-gray-400 text-sm mb-8">Mientras tanto, ¡escríbenos y te ayudamos!</p>
               <a
                 href={`https://wa.me/${WHATSAPP}?text=${COTIZAR_MSG}`}
                 target="_blank"

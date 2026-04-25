@@ -85,13 +85,16 @@ export default function Home() {
               Disfraces cosidos a mano, cerámica artesanal pintada pieza por pieza e insumos creativos. Todo en el corazón de Ibarra, con el sello de Rocío Recalde.
             </motion.p>
 
-            {/* 3 botones Hero */}
+            {/* 4 botones Hero */}
             <motion.div variants={fadeUp} className="flex flex-wrap gap-3">
               <Link to="/disfraces" className="btn-primary flex items-center gap-2">
                 <Shirt size={16} /> Ver Disfraces
               </Link>
               <Link to="/ceramica" className="btn-secondary flex items-center gap-2">
                 <Palette size={16} /> Ver Cerámicas
+              </Link>
+              <Link to="/extras" className="btn-emerald flex items-center gap-2">
+                <ShoppingBag size={16} /> La Tiendita
               </Link>
               <a
                 href={`https://wa.me/${WHATSAPP}?text=${COTIZAR_MSG}`}
@@ -224,7 +227,7 @@ export default function Home() {
                   <Heart size={16} className="text-white fill-white" />
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-brand-dark">Hecho con amor</p>
+                  <p className="text-xs font-bold text-brand-dark">Hecho con pasión</p>
                   <p className="text-[10px] text-emerald-700 font-medium">Desde {ANO_FUNDACION}</p>
                 </div>
               </motion.div>
