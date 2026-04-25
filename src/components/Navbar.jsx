@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, MapPin, Shirt, Palette, ShoppingBag, Home } from 'lucide-react'
 
-const MAPS_URL = 'https://maps.google.com/?q=Juana+Atabalipa+140+Ibarra+Ecuador'
+const MAPS_URL = 'https://maps.app.goo.gl/Ffz4FrW68CUrPZQw5?g_st=ic'
 
 const links = [
   { to: '/',          label: 'Inicio',     icon: Home },

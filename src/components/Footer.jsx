@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom'
 import { MapPin, Clock, Phone, Instagram, Facebook, Heart } from 'lucide-react'
 
-const MAPS_URL = 'https://maps.google.com/?q=Juana+Atabalipa+140+Ibarra+Ecuador'
+const MAPS_URL = 'https://maps.app.goo.gl/Ffz4FrW68CUrPZQw5?g_st=ic'
 const WHATSAPP = '593993703790'
-const INSTAGRAM = 'https://instagram.com/lamascara_ibarra'
-const FACEBOOK = 'https://facebook.com/lamascara.ibarra'
+const WHATSAPP2 = '593969672172'
+const INSTAGRAM = 'https://www.instagram.com/_la.mascara_?igsh=MXVnanE5Z3hlY3k3eg=='
+const FACEBOOK = 'https://www.facebook.com/share/1GAhHMP1K1/?mibextid=wwXIfr'
 
 export default function Footer() {
   return (
@@ -95,6 +96,17 @@ export default function Footer() {
               >
                 <Phone size={15} className="text-green-400" />
                 +593 99 370 3790
+              </a>
+            </li>
+            <li>
+              <a
+                href={`https://wa.me/${WHATSAPP2}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-green-400 transition-colors"
+              >
+                <Phone size={15} className="text-green-400" />
+                +593 96 967 2172
               </a>
             </li>
           </ul>

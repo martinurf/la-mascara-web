@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Palette, MessageCircle, Sparkles } from 'lucide-react'
+import { Palette, MessageCircle, Sparkles, X } from 'lucide-react'
 import { ceramicas, tematicas, personalizados } from '../data/ceramica'
 
 const WHATSAPP = '593993703790'
@@ -8,6 +8,7 @@ const COTIZAR_MSG = encodeURIComponent('¡Hola Rocío! Me gustaría cotizar una 
 
 export default function Ceramica() {
   const [tematica, setTematica] = useState('todas')
+  const [lightbox, setLightbox] = useState(null)
 
   const filtradas = useMemo(() => {
     return ceramicas.filter(c => tematica === 'todas' || c.tematica === tematica)
@@ -75,7 +76,10 @@ export default function Ceramica() {
                 transition={{ delay: i * 0.06 }}
                 whileHover={{ y: -4 }}
               >
-                <div className="relative overflow-hidden aspect-square">
+                <div
+                  className="relative overflow-hidden aspect-square cursor-zoom-in"
+                  onClick={() => setLightbox(item)}
+                >
                   <img
                     src={item.imagen_terminada}
                     alt={item.alt}
@@ -89,6 +93,11 @@ export default function Ceramica() {
                   </div>
                   <div className="absolute top-3 right-3 badge bg-brand-purple/90 text-white text-[10px]">
                     ✨ Pintado
+                  </div>
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
+                    <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white text-xs font-semibold bg-black/40 px-3 py-1 rounded-full">
+                      Ver más
+                    </span>
                   </div>
                 </div>
                 <div className="p-4">
@@ -109,6 +118,45 @@ export default function Ceramica() {
           </motion.div>
         </AnimatePresence>
       </section>
+
+      {/* ── LIGHTBOX ── */}
+      <AnimatePresence>
+        {lightbox && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setLightbox(null)}
+          >
+            <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />
+            <motion.div
+              className="relative z-10 max-w-lg w-full"
+              initial={{ scale: 0.85, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.85, opacity: 0 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+              onClick={e => e.stopPropagation()}
+            >
+              <button
+                onClick={() => setLightbox(null)}
+                className="absolute -top-4 -right-4 z-20 w-9 h-9 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-gray-100 transition-colors"
+              >
+                <X size={18} className="text-brand-dark" />
+              </button>
+              <img
+                src={lightbox.imagen_terminada}
+                alt={lightbox.alt}
+                className="w-full rounded-3xl shadow-2xl object-contain max-h-[80vh]"
+              />
+              <div className="mt-3 text-center">
+                <p className="text-white font-semibold">{lightbox.nombre}</p>
+                <p className="text-white/60 text-sm">{lightbox.descripcion}</p>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* ── PERSONALIZADOS ── */}
       <section className="bg-gradient-to-br from-brand-purple/5 to-brand-sand/30 py-16">
