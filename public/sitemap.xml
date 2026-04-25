@@ -30,33 +30,239 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- ── Categorías de cerámica ── -->
+  <!-- ── Cerámicas — Marvel & DC ── -->
   <url>
-    <loc>https://www.lamascara.com.ec/ceramica?tematica=marvel</loc>
+    <loc>https://www.lamascara.com.ec/ceramica/spider-man-edicion-coleccionista</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.lamascara.com.ec/ceramica?tematica=personajes</loc>
+    <loc>https://www.lamascara.com.ec/ceramica/capitan-america</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.lamascara.com.ec/ceramica?tematica=religioso</loc>
+    <loc>https://www.lamascara.com.ec/ceramica/el-increible-hulk</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.lamascara.com.ec/ceramica?tematica=hogar</loc>
+    <loc>https://www.lamascara.com.ec/ceramica/iron-man</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/thor-dios-del-trueno</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/superman</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/vegeta-el-principe-saiyan</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ── Cerámicas — Personajes ── -->
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/pequeno-groot</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/baby-groot</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/baby-groot-version-2</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/maestro-yoda</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/chewbacca</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/elsa-anna-y-olaf-frozen</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/equipo-completo-de-minions</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/familia-shrek-muy-muy-lejano</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/doctora-juguetes</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/gato-tom</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/patrulla-canina</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/figura-etnica-africana</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/figura-etnica-africana-ii</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/policia</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/figura-etnica-otavalena</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/perrita-decorativa</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/perro-decorativo</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/doctor</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ── Cerámicas — Religioso ── -->
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/virgen-maria</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/virgen-maria-estilo-clasico</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/virgen-maria-edicion-especial</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- ── Cerámicas — Hogar ── -->
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/trio-de-elefantes-de-la-suerte</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/trio-de-elefantes-decorativos</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/marco-fotografico-osito-carinoso</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/buho-de-la-sabiduria</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.lamascara.com.ec/ceramica/vaca-decorativa-de-granja</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>
