@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Shirt, Palette, ShoppingBag, Scissors, ArrowRight, Sparkles, Heart, MessageCircle } from 'lucide-react'
+import { ceramicas } from '../data/ceramica'
 
 const WHATSAPP = '593993703790'
 const COTIZAR_MSG = encodeURIComponent('¡Hola Rocío! Me gustaría cotizar algo especial.')
@@ -48,6 +50,11 @@ const secciones = [
 ]
 
 export default function Home() {
+  const [heroImgs] = useState(() => {
+    const shuffled = [...ceramicas].sort(() => Math.random() - 0.5)
+    return shuffled.slice(0, 4)
+  })
+
   return (
     <div className="pt-16">
 
@@ -130,37 +137,33 @@ export default function Home() {
           >
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
-                {/* Perchero de disfraces */}
                 <div className="rounded-3xl overflow-hidden h-52 shadow-xl mt-8">
                   <img
-                    src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=400&q=80"
-                    alt="Perchero de disfraces en el local"
+                    src={heroImgs[0]?.imagen_terminada}
+                    alt={heroImgs[0]?.nombre}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                {/* Figuras en repisa */}
                 <div className="rounded-3xl overflow-hidden h-44 shadow-xl">
                   <img
-                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80"
-                    alt="Figuras de cerámica en repisa del taller"
+                    src={heroImgs[1]?.imagen_terminada}
+                    alt={heroImgs[1]?.nombre}
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
               <div className="space-y-4">
-                {/* Maniquí con disfraz */}
                 <div className="rounded-3xl overflow-hidden h-44 shadow-xl">
                   <img
-                    src="https://images.unsplash.com/photo-1558618048-7da4fc19869c?w=400&q=80"
-                    alt="Maniquí con disfraz en exhibición"
+                    src={heroImgs[2]?.imagen_terminada}
+                    alt={heroImgs[2]?.nombre}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                {/* Cerámica pintada */}
                 <div className="rounded-3xl overflow-hidden h-52 shadow-xl">
                   <img
-                    src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&q=80"
-                    alt="Cerámica pintada a mano en el taller de Rocío"
+                    src={heroImgs[3]?.imagen_terminada}
+                    alt={heroImgs[3]?.nombre}
                     className="w-full h-full object-cover"
                   />
                 </div>

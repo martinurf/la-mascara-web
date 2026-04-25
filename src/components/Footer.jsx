@@ -14,8 +14,8 @@ export default function Footer() {
         {/* ── Marca ── */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-brand-orange to-brand-purple flex items-center justify-center">
-              <span className="text-white font-bold text-lg">M</span>
+            <div className="w-12 h-12 rounded-2xl overflow-hidden shadow-md shrink-0">
+              <img src="/Logo.jpeg" alt="Logo La Máscara" className="w-full h-full object-cover" />
             </div>
             <div>
               <p className="font-bold text-xl" style={{ fontFamily: 'Playfair Display, serif' }}>La Máscara</p>
