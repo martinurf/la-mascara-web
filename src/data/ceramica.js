@@ -1,6 +1,7 @@
 export const tematicas = [
   { id: 'todas',      label: 'Todas' },
   { id: 'personajes', label: 'Personajes' },
+  { id: 'marvel',     label: 'Marvel & DC' },
   { id: 'religioso',  label: 'Religioso' },
   { id: 'hogar',      label: 'Hogar' },
 ]
@@ -10,11 +11,12 @@ export const tematicas = [
 const BASE = 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80'
 
 export const ceramicas = [
-  // ── PERSONAJES ───────────────────────────────────────────────
+
+  // ── MARVEL & DC ───────────────────────────────────────────────
   {
     id: 1,
     nombre: 'Spider-Man (Edición Coleccionista)',
-    tematica: 'personajes',
+    tematica: 'marvel',
     imagen_base: BASE,
     imagen_terminada: '/Spider-man.jpeg',
     descripcion: 'Figura pintada a mano, detalle premium',
@@ -22,18 +24,60 @@ export const ceramicas = [
   {
     id: 2,
     nombre: 'Capitán América',
-    tematica: 'personajes',
+    tematica: 'marvel',
     imagen_base: BASE,
     imagen_terminada: '/Capitan%20America.jpeg',
-    descripcion: 'Héroe de cerámica, 20 cm',
+    descripcion: 'El escudo más icónico, en cerámica',
   },
+  {
+    id: 17,
+    nombre: 'El Increíble Hulk',
+    tematica: 'marvel',
+    imagen_base: BASE,
+    imagen_terminada: '/Hulk.jpeg',
+    descripcion: 'Fuerza y color en cada detalle',
+  },
+  {
+    id: 18,
+    nombre: 'Iron Man',
+    tematica: 'marvel',
+    imagen_base: BASE,
+    imagen_terminada: '/Ironman.jpeg',
+    descripcion: 'El genio, millonario y filántropo',
+  },
+  {
+    id: 19,
+    nombre: 'Thor, Dios del Trueno',
+    tematica: 'marvel',
+    imagen_base: BASE,
+    imagen_terminada: '/Thor.jpeg',
+    descripcion: 'Con su Mjölnir, listo para la batalla',
+  },
+  {
+    id: 20,
+    nombre: 'Superman',
+    tematica: 'marvel',
+    imagen_base: BASE,
+    imagen_terminada: '/Superman.jpeg',
+    descripcion: 'El hombre de acero, pintado a mano',
+  },
+  {
+    id: 21,
+    nombre: 'Vegeta, el Príncipe Saiyan',
+    tematica: 'marvel',
+    imagen_base: BASE,
+    imagen_terminada: '/Vegeta.jpeg',
+    descripcion: 'Orgullo del planeta Vegeta',
+  },
+
+  // ── PERSONAJES ───────────────────────────────────────────────
   {
     id: 3,
     nombre: 'Pequeño Groot',
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/groot.jpeg',
-    descripcion: 'Guardián de la Galaxia, cerámica 15 cm',
+    descripcion: 'I am Groot — Guardián de la Galaxia',
   },
   {
     id: 4,
@@ -41,7 +85,15 @@ export const ceramicas = [
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Baby%20Groot.jpeg',
-    descripcion: 'Versión bebé, edición especial',
+    descripcion: 'La versión más tierna del guardián',
+  },
+  {
+    id: 22,
+    nombre: 'Baby Groot (Versión 2)',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/baby%20groot%202.jpeg',
+    descripcion: 'Edición exclusiva pintada por Rocío',
   },
   {
     id: 5,
@@ -49,7 +101,7 @@ export const ceramicas = [
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Yoda.jpeg',
-    descripcion: 'Ícono de Star Wars, pintado a mano',
+    descripcion: 'La Fuerza te acompaña',
   },
   {
     id: 6,
@@ -57,23 +109,31 @@ export const ceramicas = [
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Chubaka.jpeg',
-    descripcion: 'El fiel co-piloto del Halcón Milenario',
+    descripcion: 'El fiel copiloto del Halcón Milenario',
+  },
+  {
+    id: 23,
+    nombre: 'Elsa y Anna — Frozen',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/Frozen.jpeg',
+    descripcion: 'Las reinas de Arendelle en cerámica',
   },
   {
     id: 7,
-    nombre: 'Dúo de Minions',
+    nombre: 'Equipo Completo de Minions',
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/minions.jpeg',
-    descripcion: 'Kevin y Stuart, inseparables',
+    descripcion: 'Kevin, Stuart, Bob y la Minion — todos juntos',
   },
   {
     id: 8,
-    nombre: 'Shrek, el Ogro Encantado',
+    nombre: 'Familia de Muy Muy Lejano',
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/shrek.jpeg',
-    descripcion: 'El ogro más querido, 18 cm',
+    descripcion: 'Shrek, Fiona, Burro y Gato con Botas',
   },
   {
     id: 9,
@@ -81,7 +141,7 @@ export const ceramicas = [
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Doctora%20Juguetes.jpeg',
-    descripcion: 'Ideal para regalos infantiles',
+    descripcion: 'Un regalo perfecto para los pequeños',
   },
   {
     id: 10,
@@ -89,7 +149,15 @@ export const ceramicas = [
     tematica: 'personajes',
     imagen_base: BASE,
     imagen_terminada: '/Gato%20Tom.jpeg',
-    descripcion: 'Clásico del cartoon, 14 cm',
+    descripcion: 'El perseguidor más querido del cartoon',
+  },
+  {
+    id: 24,
+    nombre: 'Patrulla Canina',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/paw%20patrol.jpeg',
+    descripcion: 'La misión nunca falla — pintada a mano',
   },
   {
     id: 11,
@@ -99,6 +167,14 @@ export const ceramicas = [
     imagen_terminada: '/africana.jpeg',
     descripcion: 'Pieza decorativa de autor',
   },
+  {
+    id: 25,
+    nombre: 'Figura Étnica Africana II',
+    tematica: 'personajes',
+    imagen_base: BASE,
+    imagen_terminada: '/africana%202.jpeg',
+    descripcion: 'Segunda edición de la serie étnica',
+  },
 
   // ── RELIGIOSO ────────────────────────────────────────────────
   {
@@ -107,7 +183,7 @@ export const ceramicas = [
     tematica: 'religioso',
     imagen_base: BASE,
     imagen_terminada: '/virgen%20maria.jpeg',
-    descripcion: 'Figura devocional, acabado fino',
+    descripcion: 'Figura devocional de acabado fino',
   },
   {
     id: 13,
@@ -115,7 +191,15 @@ export const ceramicas = [
     tematica: 'religioso',
     imagen_base: BASE,
     imagen_terminada: '/Virgen%20Maria%202%20.jpeg',
-    descripcion: 'Versión clásica, colores tradicionales',
+    descripcion: 'Colores tradicionales, devoción eterna',
+  },
+  {
+    id: 26,
+    nombre: 'Virgen María (Edición Especial)',
+    tematica: 'religioso',
+    imagen_base: BASE,
+    imagen_terminada: '/Virgen%20Maria%203.jpeg',
+    descripcion: 'Acabado exclusivo, ideal para regalo',
   },
 
   // ── HOGAR ────────────────────────────────────────────────────
@@ -128,12 +212,28 @@ export const ceramicas = [
     descripcion: 'Símbolo de prosperidad y fortuna',
   },
   {
+    id: 27,
+    nombre: 'Dúo de Elefantes Decorativos',
+    tematica: 'hogar',
+    imagen_base: BASE,
+    imagen_terminada: '/elefantes%202.jpeg',
+    descripcion: 'Elegancia y buena energía en tu hogar',
+  },
+  {
     id: 15,
     nombre: 'Marco Fotográfico Osito Cariñoso',
     tematica: 'hogar',
     imagen_base: BASE,
     imagen_terminada: '/oso%20cuadro.jpeg',
     descripcion: 'Portarretrato artesanal único',
+  },
+  {
+    id: 28,
+    nombre: 'Búho de la Sabiduría',
+    tematica: 'hogar',
+    imagen_base: BASE,
+    imagen_terminada: '/buho.jpeg',
+    descripcion: 'Símbolo de sabiduría para decorar',
   },
   {
     id: 16,

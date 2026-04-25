@@ -3,14 +3,13 @@ import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, MapPin, Shirt, Palette, ShoppingBag, Home } from 'lucide-react'
 
-const WHATSAPP = '593993703790'
 const MAPS_URL = 'https://maps.google.com/?q=Juana+Atabalipa+140+Ibarra+Ecuador'
 
 const links = [
-  { to: '/', label: 'Inicio', icon: Home },
-  { to: '/disfraces', label: 'Disfraces', icon: Shirt },
-  { to: '/ceramica', label: 'Cerámica', icon: Palette },
-  { to: '/extras', label: 'La Tiendita', icon: ShoppingBag },
+  { to: '/',          label: 'Inicio',     icon: Home },
+  { to: '/disfraces', label: 'Disfraces',  icon: Shirt },
+  { to: '/ceramica',  label: 'Cerámica',   icon: Palette },
+  { to: '/extras',    label: 'Tiendita',   icon: ShoppingBag },
 ]
 
 export default function Navbar() {
@@ -29,14 +28,21 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-md py-2' : 'bg-white/80 backdrop-blur-sm py-3'
+        scrolled
+          ? 'bg-[#FAF7F4]/95 backdrop-blur-md shadow-md py-2'
+          : 'bg-[#FAF7F4]/80 backdrop-blur-sm py-3'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-brand-orange to-brand-purple flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-            <span className="text-white font-bold text-lg">M</span>
+
+        {/* ── Logo real ── */}
+        <Link to="/" className="flex items-center gap-2.5 group">
+          <div className="h-11 w-11 rounded-2xl overflow-hidden shadow-md group-hover:scale-105 transition-transform shrink-0">
+            <img
+              src="/Logo.jpeg"
+              alt="Logo La Máscara"
+              className="h-full w-full object-cover"
+            />
           </div>
           <div className="leading-tight">
             <p className="font-bold text-brand-dark text-lg leading-none" style={{ fontFamily: 'Playfair Display, serif' }}>
@@ -46,7 +52,7 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop links */}
+        {/* ── Links desktop ── */}
         <nav className="hidden md:flex items-center gap-1">
           {links.map(({ to, label, icon: Icon }) => {
             const active = location.pathname === to
@@ -67,7 +73,7 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* CTA */}
+        {/* ── CTA Ubicación ── */}
         <div className="hidden md:flex items-center gap-2">
           <a
             href={MAPS_URL}
@@ -80,7 +86,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Mobile hamburger */}
+        {/* ── Hamburguesa mobile ── */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden p-2 rounded-2xl hover:bg-brand-sand/60 transition-colors"
@@ -90,7 +96,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* ── Menú mobile ── */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -98,7 +104,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden bg-white border-t border-brand-sand/50 overflow-hidden"
+            className="md:hidden bg-[#FAF7F4] border-t border-brand-sand/50 overflow-hidden"
           >
             <div className="px-4 py-3 flex flex-col gap-1">
               {links.map(({ to, label, icon: Icon }) => {

@@ -12,7 +12,7 @@ export default {
           purple:   '#864AF9',
           sand:     '#E8D5B0',
           clay:     '#C9956C',
-          cream:    '#FDFBF7',   // ivory suave — reemplaza blanco puro
+          cream:    '#FAF7F4',   // pergamino cálido — resalta fuchsia y dorado del logo
           dark:     '#1A1A2E',
           emerald:  '#1D5C45',   // verde esmeralda sección Legado
         }

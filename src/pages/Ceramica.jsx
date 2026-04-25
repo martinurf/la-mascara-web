@@ -59,7 +59,7 @@ export default function Ceramica() {
             {/* Toggle base/terminada */}
             <div className="flex items-center gap-3 shrink-0">
               <span className={`text-sm font-medium transition-colors ${!verTerminada ? 'text-brand-clay' : 'text-gray-400'}`}>
-                Base
+                Sin pintar
               </span>
               <button
                 onClick={() => setVerTerminada(!verTerminada)}
@@ -74,7 +74,7 @@ export default function Ceramica() {
                 />
               </button>
               <span className={`text-sm font-medium transition-colors ${verTerminada ? 'text-brand-purple' : 'text-gray-400'}`}>
-                Terminada
+                Pintado
               </span>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Ceramica() {
             <span className={`text-xs font-medium px-3 py-1 rounded-full ${
               verTerminada ? 'bg-brand-purple/10 text-brand-purple' : 'bg-brand-clay/20 text-brand-clay'
             }`}>
-              {verTerminada ? '✨ Viendo: Figuras terminadas (pintadas a mano)' : '🏺 Viendo: Figuras base (para pintar tú mismo)'}
+              {verTerminada ? '✨ Viendo: Figuras pintadas a mano por Rocío' : '🏺 Viendo: Figuras sin pintar (para personalizarlas tú mismo)'}
             </span>
           </div>
         </div>
@@ -135,14 +135,14 @@ export default function Ceramica() {
                   <div className={`absolute top-3 right-3 badge text-white text-[10px] ${
                     verTerminada ? 'bg-brand-purple/90' : 'bg-brand-clay/90'
                   }`}>
-                    {verTerminada ? '✨ Pintada' : '🏺 Base'}
+                    {verTerminada ? '✨ Pintado' : '🏺 Sin pintar'}
                   </div>
                 </div>
                 <div className="p-4">
                   <h3 className="font-semibold text-brand-dark text-sm mb-1">{item.nombre}</h3>
                   <p className="text-xs text-gray-500 mb-3">{item.descripcion}</p>
                   <a
-                    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`¡Hola! Me interesa la figura "${item.nombre}" (${verTerminada ? 'terminada' : 'base para pintar'}). ¿Cuál es el precio?`)}`}
+                    href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`¡Hola Rocío! Me interesa la figura "${item.nombre}" (${verTerminada ? 'pintada' : 'sin pintar'}). ¿Cuál es el precio?`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-whatsapp w-full justify-center text-xs py-2"
