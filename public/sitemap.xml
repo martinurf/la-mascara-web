@@ -3,87 +3,87 @@
 
   <!-- ── Páginas principales ── -->
   <url>
-    <loc>https://www.lamascara.com.ec/</loc>
+    <loc>https://la-mascara-web.vercel.app/</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.lamascara.com.ec/disfraces</loc>
+    <loc>https://la-mascara-web.vercel.app/disfraces</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lamascara.com.ec/ceramica</loc>
+    <loc>https://la-mascara-web.vercel.app/ceramica</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lamascara.com.ec/extras</loc>
+    <loc>https://la-mascara-web.vercel.app/extras</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- ── Marvel & DC ── -->
-  <url><loc>https://www.lamascara.com.ec/ceramica/spider-man-edicion-coleccionista</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/capitan-america</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/el-increible-hulk</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/iron-man</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/thor-dios-del-trueno</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/superman</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/vegeta-el-principe-saiyan</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/spider-man-edicion-coleccionista</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/capitan-america</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/el-increible-hulk</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/iron-man</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/thor-dios-del-trueno</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/superman</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/vegeta-el-principe-saiyan</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- ── Personajes ── -->
-  <url><loc>https://www.lamascara.com.ec/ceramica/pequeno-groot</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/baby-groot</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/baby-groot-version-2</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/maestro-yoda</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/chewbacca</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/elsa-anna-y-olaf-frozen</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/equipo-completo-de-minions</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/familia-shrek-muy-muy-lejano</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/doctora-juguetes</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/gato-tom</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/patrulla-canina</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/figura-etnica-africana</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/figura-etnica-africana-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/policia</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/figura-etnica-otavalena</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/perrita-decorativa</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/perro-decorativo</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/doctor</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/africana-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/africana-nueva-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/mario-bros</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/luigi</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/otavalena-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/familia-4-miembros</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/bruja-con-calabaza</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/unicornio</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/unicornio-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/unicornio-iii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/pequeno-groot</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/baby-groot</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/baby-groot-version-2</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/maestro-yoda</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/chewbacca</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/elsa-anna-y-olaf-frozen</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/equipo-completo-de-minions</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/familia-shrek-muy-muy-lejano</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/doctora-juguetes</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/gato-tom</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/patrulla-canina</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/figura-etnica-africana</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/figura-etnica-africana-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/policia</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/figura-etnica-otavalena</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/perrita-decorativa</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/perro-decorativo</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/doctor</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/africana-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/africana-nueva-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/mario-bros</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/luigi</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/otavalena-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/familia-4-miembros</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/bruja-con-calabaza</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/unicornio</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/unicornio-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/unicornio-iii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- ── Religioso ── -->
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-maria</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-maria-estilo-clasico</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-maria-edicion-especial</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/divino-nino</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-maria-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-maria-realista</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/virgen-marco-para-foto</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-maria</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-maria-estilo-clasico</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-maria-edicion-especial</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/divino-nino</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-maria-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-maria-realista</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-nueva</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/virgen-marco-para-foto</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- ── Hogar ── -->
-  <url><loc>https://www.lamascara.com.ec/ceramica/trio-de-elefantes-de-la-suerte</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/trio-de-elefantes-decorativos</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/marco-fotografico-osito-carinoso</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/buho-de-la-sabiduria</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/vaca-decorativa-de-granja</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/mujer-florero</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/mujer-florero-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://www.lamascara.com.ec/ceramica/mujer-florero-iii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/trio-de-elefantes-de-la-suerte</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/trio-de-elefantes-decorativos</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/marco-fotografico-osito-carinoso</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/buho-de-la-sabiduria</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/vaca-decorativa-de-granja</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/mujer-florero</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/mujer-florero-ii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://la-mascara-web.vercel.app/ceramica/mujer-florero-iii</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
 </urlset>
