@@ -1,9 +1,10 @@
 export const tematicas = [
-  { id: 'todas',      label: 'Todas' },
-  { id: 'personajes', label: 'Personajes' },
-  { id: 'marvel',     label: 'Marvel & DC' },
-  { id: 'religioso',  label: 'Religioso' },
-  { id: 'hogar',      label: 'Hogar' },
+  { id: 'todas',          label: 'Todas' },
+  { id: 'personajes',     label: 'Personajes' },
+  { id: 'marvel',         label: 'Marvel & DC' },
+  { id: 'religioso',      label: 'Religioso' },
+  { id: 'hogar',          label: 'Hogar' },
+  { id: 'personalizados', label: 'Personalizados' },
 ]
 
 const BASE = 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80'
@@ -504,6 +505,37 @@ export const personalizados = [
     titulo: 'Zapato Fútbol — Liga Personalizado',
     descripcion: 'Zapato de fútbol en cerámica con colores personalizados',
     imagen: '/zapato-futbol-liga.png',
+    alt: 'Zapato de fútbol en cerámica personalizado con colores de Liga de Quito pintado a mano en Ibarra Ecuador',
+  },
+]
+
+// Estos mismos aparecen también en el grid principal bajo la categoría "Personalizados"
+export const ceramicasPersonalizadas = [
+  {
+    id: 101,
+    nombre: 'Cerdito Miguel — Coco',
+    tematica: 'personalizados',
+    imagen_base: BASE,
+    imagen_terminada: '/Cerdito%20Miguel%20de%20coco%20Personalizado.jpeg',
+    descripcion: 'Personalizado basado en el personaje de la película Coco',
+    alt: 'Figura de cerámica personalizada del cerdito Miguel de la película Coco pintada a mano en Ibarra Ecuador',
+  },
+  {
+    id: 102,
+    nombre: 'Balón de Fútbol — Liga',
+    tematica: 'personalizados',
+    imagen_base: BASE,
+    imagen_terminada: '/Liga%20Balon%20de%20futbol%20personalizado.jpeg',
+    descripcion: 'Balón decorativo personalizado con colores de Liga de Quito',
+    alt: 'Balón de fútbol de cerámica personalizado con colores de Liga de Quito pintado a mano en Ibarra Ecuador',
+  },
+  {
+    id: 103,
+    nombre: 'Zapato Fútbol — Liga',
+    tematica: 'personalizados',
+    imagen_base: BASE,
+    imagen_terminada: '/zapato-futbol-liga.png',
+    descripcion: 'Zapato de fútbol en cerámica con colores personalizados',
     alt: 'Zapato de fútbol en cerámica personalizado con colores de Liga de Quito pintado a mano en Ibarra Ecuador',
   },
 ]

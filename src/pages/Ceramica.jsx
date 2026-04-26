@@ -1,7 +1,9 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Palette, MessageCircle, Sparkles, X } from 'lucide-react'
-import { ceramicas, tematicas, personalizados } from '../data/ceramica'
+import { ceramicas, ceramicasPersonalizadas, tematicas, personalizados } from '../data/ceramica'
+
+const todoCatalogo = [...ceramicas, ...ceramicasPersonalizadas]
 
 const WHATSAPP = '593993703790'
 const COTIZAR_MSG = encodeURIComponent('¡Hola Rocío! Me gustaría cotizar una pieza de cerámica personalizada.')
@@ -11,7 +13,7 @@ export default function Ceramica() {
   const [lightbox, setLightbox] = useState(null)
 
   const filtradas = useMemo(() => {
-    return ceramicas.filter(c => tematica === 'todas' || c.tematica === tematica)
+    return todoCatalogo.filter(c => tematica === 'todas' || c.tematica === tematica)
   }, [tematica])
 
   return (
